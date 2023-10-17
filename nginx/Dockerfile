@@ -6,5 +6,5 @@ ENV TZ=Asia/Seoul
 RUN apt-get update
 RUN apt-get install -y curl nginx
 COPY index.html /var/www/html/index.html
-CMD [ "ngnix", "-g", "daemon off;"]
+CMD [ "nginx", "-g", "daemon off;"]
 EXPOSE 80
