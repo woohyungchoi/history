@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-LABEL matainger woohyung
+LABEL matainger woohyungchoi
 LABEL contect flrst24@naver.com
 ENV DEBIAN_FRONTED=noninteractive
 ENV TZ=Asia/Seoul
